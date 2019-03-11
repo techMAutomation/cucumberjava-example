@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 224122219,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the Contact page",
+            "match": {
+              "location": "ContactUsSteps.I_navigate_to_the_Contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50439971,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see the Contact page title",
+            "match": {
+              "location": "ContactUsSteps.I_should_see_the_Contact_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2442675040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Test that User is able to submit the form Successfully",
+        "description": "",
+        "id": "verify-that-contactus-page-is-working-as-expected;test-that-user-is-able-to-submit-the-form-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 100610187,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 905657236,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter Valid contact Hi hello@test.com Test Message details in the Contact page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 8
+                },
+                {
+                  "val": "Hi hello@test.com",
+                  "offset": 22
+                },
+                {
+                  "val": "Test",
+                  "offset": 40
+                },
+                {
+                  "val": "Message",
+                  "offset": 45
+                }
+              ],
+              "location": "ContactUsSteps.I_enter_contact_details_in_the_Contact_page(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90607057,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I submit the contact details",
+            "match": {
+              "location": "ContactUsSteps.I_submit_the_contact_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"___gatsby\"]/div/div[1]/div/div/form/div[4]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Pavanis-MBP.connect\u0027, ip: \u0027fe80:0:0:0:14fd:a50f:9659:5ca2%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.1\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\n\tat pom.ContactUsPage.verifyContactPageSuccessMessage(ContactUsPage.java:73)\n\tat stepDefinitions.ContactUsSteps.I_should_see_the_Contact_Page_Success_message(ContactUsSteps.java:51)\n\tat ✽.I should see the Contact Page Success message(src/test/resources/features/contactUs.feature:22)\n",
+              "duration": 10518453930,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "I should see the Contact Page Success message",
+            "match": {
+              "location": "ContactUsSteps.I_should_see_the_Contact_Page_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that ContactUs page is working as expected",
+    "description": "",
+    "id": "verify-that-contactus-page-is-working-as-expected",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/contactUs.feature",
+    "tags": []
+  }
+]

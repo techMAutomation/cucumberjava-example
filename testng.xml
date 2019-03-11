@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" data-provider-thread-count="6" parallel="tests" thread-count="4">
+    <test verbose="2" name="TEST" preserve-order="true">
+
+        <classes>
+            <class name="cucumberRunners.CucumberRunnerTest"></class>
+        </classes>
+
+    </test>
+</suite>
