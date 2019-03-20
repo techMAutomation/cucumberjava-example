@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 08 18:11:19 GMT 2019</td>
+<td>Started on:</td><td>Wed Mar 20 13:00:42 GMT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14596 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20471 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,49 +67,33 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='cucumberRunners.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: cucumberRunners.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test that User is able to submit the form Successfully", "Verify that ContactUs page is working as expected"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id=&quot;___gatsby&quot;]/div/div[1]/div/div/form/div[4]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Pavanis-MBP.connect&apos;, ip: &apos;fe80:0:0:0:14fd:a50f:9659:5ca2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.getText(Unknown Source)
-	at pom.ContactUsPage.verifyContactPageSuccessMessage(ContactUsPage.java:73)
-	at stepDefinitions.ContactUsSteps.I_should_see_the_Contact_Page_Success_message(ContactUsSteps.java:51)
-	at ✽.I should see the Contact Page Success message(src/test/resources/features/contactUs.feature:22)
-</pre></div><a href='#' onClick='toggleBox("stack-trace408069119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace408069119'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id=&quot;___gatsby&quot;]/div/div[1]/div/div/form/div[4]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;Pavanis-MBP.connect&apos;, ip: &apos;fe80:0:0:0:14fd:a50f:9659:5ca2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.getText(Unknown Source)
-	at pom.ContactUsPage.verifyContactPageSuccessMessage(ContactUsPage.java:73)
-	at stepDefinitions.ContactUsSteps.I_should_see_the_Contact_Page_Success_message(ContactUsSteps.java:51)
-	at ✽.I should see the Contact Page Success message(src/test/resources/features/contactUs.feature:22)
-</pre></div></td>
-<td>14</td>
-<td>cucumberRunners.CucumberRunnerTest@47f6473</td></tr>
+<td title='cucumberRunners.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: cucumberRunners.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test that Login page functionality is working correctly with Invalid data", "Verify that Home page is working fine"</td>
+<td></td>
+<td>5</td>
+<td>cucumberRunners.CucumberRunnerTest@6b143ee9</td></tr>
+<tr>
+<td title='cucumberRunners.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: cucumberRunners.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test that Login page functionality is working correctly with Invalid data", "Verify that Home page is working fine"</td>
+<td></td>
+<td>4</td>
+<td>cucumberRunners.CucumberRunnerTest@6b143ee9</td></tr>
+<tr>
+<td title='cucumberRunners.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: cucumberRunners.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test that Login page functionality is working correctly with Invalid data", "Verify that Home page is working fine"</td>
+<td></td>
+<td>4</td>
+<td>cucumberRunners.CucumberRunnerTest@6b143ee9</td></tr>
+<tr>
+<td title='cucumberRunners.CucumberRunnerTest.runScenario()'><b>runScenario</b><br>Test class: cucumberRunners.CucumberRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test that Registration page is opened correctly", "Verify that Home page is working fine"</td>
+<td></td>
+<td>5</td>
+<td>cucumberRunners.CucumberRunnerTest@6b143ee9</td></tr>
 </table><p>
 </body>
 </html>

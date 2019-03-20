@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.33769">
-<testcase classname="Verify that ContactUs page is working as expected" name="Test that User is able to submit the form Successfully" time="14.33769">
-<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id=&quot;___gatsby&quot;]/div/div[1]/div/div/form/div[4]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Pavanis-MBP.connect', ip: 'fe80:0:0:0:14fd:a50f:9659:5ca2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_202'&#10;Driver info: driver.version: RemoteWebDriver&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#10;&#9;at com.sun.proxy.$Proxy17.getText(Unknown Source)&#10;&#9;at pom.ContactUsPage.verifyContactPageSuccessMessage(ContactUsPage.java:73)&#10;&#9;at stepDefinitions.ContactUsSteps.I_should_see_the_Contact_Page_Success_message(ContactUsSteps.java:51)&#10;&#9;at ✽.I should see the Contact Page Success message(src/test/resources/features/contactUs.feature:22)&#10;"><![CDATA[Given I navigate to the Contact page........................................passed
-And I should see the Contact page title.....................................passed
-And I enter Valid contact Hi hello@test.com Test Message details in the Contact page.passed
-When I submit the contact details...........................................passed
-Then I should see the Contact Page Success message..........................failed
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//*[@id="___gatsby"]/div/div[1]/div/div/form/div[4]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Pavanis-MBP.connect', ip: 'fe80:0:0:0:14fd:a50f:9659:5ca2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy17.getText(Unknown Source)
-	at pom.ContactUsPage.verifyContactPageSuccessMessage(ContactUsPage.java:73)
-	at stepDefinitions.ContactUsSteps.I_should_see_the_Contact_Page_Success_message(ContactUsSteps.java:51)
-	at ✽.I should see the Contact Page Success message(src/test/resources/features/contactUs.feature:22)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="20.20831">
+<testcase classname="Verify that Home page is working fine" name="Test that Login page functionality is working correctly with Invalid data" time="5.402835">
+<system-out><![CDATA[Given I am on the Home page.................................................passed
+When I click on the SignIn link.............................................passed
+And I enter invalid Username ...............................................passed
+And I enter invalid Password ...............................................passed
+And I submit login details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify that Home page is working fine" name="Test that Login page functionality is working correctly with Invalid data 2" time="4.836918">
+<system-out><![CDATA[Given I am on the Home page.................................................passed
+When I click on the SignIn link.............................................passed
+And I enter invalid Username Hi.............................................passed
+And I enter invalid Password ...............................................passed
+And I submit login details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify that Home page is working fine" name="Test that Login page functionality is working correctly with Invalid data 3" time="4.948347">
+<system-out><![CDATA[Given I am on the Home page.................................................passed
+When I click on the SignIn link.............................................passed
+And I enter invalid Username Hi.............................................passed
+And I enter invalid Password hello..........................................passed
+And I submit login details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify that Home page is working fine" name="Test that Registration page is opened correctly" time="5.02021">
+<system-out><![CDATA[Given I am on the Home page.................................................passed
+When I click on the Join Now link...........................................passed
+Then I should see the Join Now page is opened in the same tab...............passed
+]]></system-out>
 </testcase>
 </testsuite>

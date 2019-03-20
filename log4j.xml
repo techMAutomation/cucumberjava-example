@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' debug="false">
+    <appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <!--&lt;!&ndash; For Printing message with date , time & class name also-->
+            <!--<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss} %5p %c{1} - %m%n"/>-->
+            <!--&ndash;&gt;-->
+            <!--&lt;!&ndash; For printing message only - Ex: 01-07-2014 12:56:32 INFO [GmailLogin]: Sample log message &ndash;&gt;-->
+            <param name="ConversionPattern" value="%-5p[%c{1}]: %m%n"/>
+        </layout>
+    </appender>
+    <appender name="fileAppender" class="org.apache.log4j.RollingFileAppender">
+        <param name="Threshold" value="INFO"/>
+        <param name="file" value="logs/Desktop_Automation_Logs.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd-MM-yyyy HH:mm:ss}%x %-5p[%c{1}]: %m%n"/>
+        </layout>
+    </appender>
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="fileAppender"/>
+    </root>
+</log4j:configuration>

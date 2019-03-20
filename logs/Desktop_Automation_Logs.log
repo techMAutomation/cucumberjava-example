@@ -1,0 +1,79 @@
+20-03-2019 12:42:15 INFO [LoginPage]: CONTACT US
+20-03-2019 12:42:59 INFO [LoginPage]: CONTACT US
+20-03-2019 12:44:16 INFO [LoginPage]: CONTACT US
+20-03-2019 12:45:09 INFO [LoginPage]: CONTACT US
+20-03-2019 12:45:09 INFO [LoginPage]:  -- joinnow text :: JOIN NOW
+20-03-2019 12:45:10 INFO [LoginPage]:  -- Clicked on 'JOIN NOW' button -- 
+20-03-2019 12:45:44 INFO [LoginPage]: CONTACT US
+20-03-2019 12:45:44 INFO [LoginPage]: SIGN IN
+20-03-2019 12:45:44 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:45:44 INFO [LoginPage]: 
+20-03-2019 12:45:49 INFO [LoginPage]: CONTACT US
+20-03-2019 12:45:49 INFO [LoginPage]: SIGN IN
+20-03-2019 12:45:49 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:45:49 INFO [LoginPage]: 
+20-03-2019 12:45:53 INFO [LoginPage]: CONTACT US
+20-03-2019 12:45:53 INFO [LoginPage]: SIGN IN
+20-03-2019 12:45:53 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:45:53 INFO [LoginPage]: 
+20-03-2019 12:55:19 INFO [LoginPage]: CONTACT US
+20-03-2019 12:55:19 INFO [LoginPage]: SIGN IN
+20-03-2019 12:55:19 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:55:24 INFO [LoginPage]: CONTACT US
+20-03-2019 12:55:24 INFO [LoginPage]: SIGN IN
+20-03-2019 12:55:25 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:55:29 INFO [LoginPage]: CONTACT US
+20-03-2019 12:55:29 INFO [LoginPage]: SIGN IN
+20-03-2019 12:55:30 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:04 INFO [LoginPage]: CONTACT US
+20-03-2019 12:57:04 INFO [LoginPage]: SIGN IN
+20-03-2019 12:57:04 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:04 INFO [LoginPage]: 
+20-03-2019 12:57:08 INFO [LoginPage]: CONTACT US
+20-03-2019 12:57:08 INFO [LoginPage]: SIGN IN
+20-03-2019 12:57:09 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:09 INFO [LoginPage]: 
+20-03-2019 12:57:14 INFO [LoginPage]: CONTACT US
+20-03-2019 12:57:14 INFO [LoginPage]: SIGN IN
+20-03-2019 12:57:14 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:14 INFO [LoginPage]: 
+20-03-2019 12:57:43 INFO [LoginPage]: CONTACT US
+20-03-2019 12:57:43 INFO [LoginPage]: SIGN IN
+20-03-2019 12:57:43 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:44 INFO [LoginPage]: 
+20-03-2019 12:57:48 INFO [LoginPage]: CONTACT US
+20-03-2019 12:57:48 INFO [LoginPage]: SIGN IN
+20-03-2019 12:57:48 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:49 INFO [LoginPage]: 
+20-03-2019 12:57:53 INFO [LoginPage]: CONTACT US
+20-03-2019 12:57:53 INFO [LoginPage]: SIGN IN
+20-03-2019 12:57:53 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:57:54 INFO [LoginPage]: 
+20-03-2019 12:58:56 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:58:57 INFO [LoginPage]: 
+20-03-2019 12:59:01 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:59:02 INFO [LoginPage]: 
+20-03-2019 12:59:06 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:59:07 INFO [LoginPage]: 
+20-03-2019 12:59:44 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:59:46 INFO [LoginPage]:  -- Entered Username {} 
+20-03-2019 12:59:46 INFO [LoginPage]:  -- Entered Password {} 
+20-03-2019 12:59:46 INFO [LoginPage]: Log-in
+20-03-2019 12:59:46 INFO [LoginPage]:  -- Clicked on 'Log-In' submit button -- 
+20-03-2019 12:59:50 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:59:52 INFO [LoginPage]:  -- Entered Username {} Hi
+20-03-2019 12:59:52 INFO [LoginPage]:  -- Entered Password {} 
+20-03-2019 12:59:52 INFO [LoginPage]: Log-in
+20-03-2019 12:59:52 INFO [LoginPage]:  -- Clicked on 'Log-In' submit button -- 
+20-03-2019 12:59:57 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 12:59:58 INFO [LoginPage]:  -- Entered Username {} Hi
+20-03-2019 12:59:58 INFO [LoginPage]:  -- Entered Password {} hello
+20-03-2019 12:59:58 INFO [LoginPage]: Log-in
+20-03-2019 12:59:58 INFO [LoginPage]:  -- Clicked on 'Log-In' submit button -- 
+20-03-2019 13:00:47 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 13:00:47 INFO [LoginPage]: 
+20-03-2019 13:00:52 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 13:00:52 INFO [LoginPage]: 
+20-03-2019 13:00:57 INFO [LoginPage]:  -- Clicked on 'SignIn' button -- 
+20-03-2019 13:00:57 INFO [LoginPage]: 
+20-03-2019 13:01:02 INFO [LoginPage]:  -- Clicked on 'JOIN NOW' button -- 
